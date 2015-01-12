@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Battery Struct Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script type="text/javascript">
+    window.jazzy = {'docset': false}
+    if (typeof window.dash != 'undefined') {
+      document.documentElement.className += ' dash'
+      window.jazzy.docset = true
+    }
+    if (navigator.userAgent.match(/xcode/i)) {
+      document.documentElement.className += ' xcode'
+      window.jazzy.docset = true
+    }
+    </script>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+  </head>
+  <body id="reference" class="Swift">
+    <a name="//apple_ref/swift/Struct/Battery" class="dashAnchor"></a>
+    <a title="Battery Struct Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p class="header-text"><a href="../index.html">SystemKit Docs</a> (96% documented)</p>
+        <p id="header-links"><a href="http://github.com/beltex/SystemKit"><img id="header-icon" src="../img/gh.png" height="16px" width="16px" />View on GitHub</a></p>
+      </div>
+    </header>
+    <section id="valence">
+      <div class="content-wrapper">
+        <p id="hierarchial_navigation">
+        <a href="../index.html" id="design_resources_link">SystemKit Reference</a>
+        <img id="carat" src="../img/carat.png" height="10px" width="6px" />
+        Battery Struct Reference
+        </p>
+      </div>
+    </section>
+    <div class="content-wrapper">
+      <nav class="book-parts">
+        <ul class="nav-parts">
+          <li class="part-name tasks">
+          <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-chapters">
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit16kIOReturnAbortedVSs5Int32">kIOReturnAborted</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit20kIOReturnBadArgumentVSs5Int32">kIOReturnBadArgument</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit17kIOReturnBadMediaVSs5Int32">kIOReturnBadMedia</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit21kIOReturnBadMessageIDVSs5Int32">kIOReturnBadMessageID</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit13kIOReturnBusyVSs5Int32">kIOReturnBusy</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit19kIOReturnCannotLockVSs5Int32">kIOReturnCannotLock</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit19kIOReturnCannotWireVSs5Int32">kIOReturnCannotWire</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit17kIOReturnDMAErrorVSs5Int32">kIOReturnDMAError</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit20kIOReturnDeviceErrorVSs5Int32">kIOReturnDeviceError</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit14kIOReturnErrorVSs5Int32">kIOReturnError</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit24kIOReturnExclusiveAccessVSs5Int32">kIOReturnExclusiveAccess</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit16kIOReturnIOErrorVSs5Int32">kIOReturnIOError</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit17kIOReturnIPCErrorVSs5Int32">kIOReturnIPCError</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit22kIOReturnInternalErrorVSs5Int32">kIOReturnInternalError</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit16kIOReturnInvalidVSs5Int32">kIOReturnInvalid</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit18kIOReturnIsoTooNewVSs5Int32">kIOReturnIsoTooNew</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit18kIOReturnIsoTooOldVSs5Int32">kIOReturnIsoTooOld</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit19kIOReturnLockedReadVSs5Int32">kIOReturnLockedRead</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit24kIOReturnMessageTooLargeVSs5Int32">kIOReturnMessageTooLarge</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit20kIOReturnNoBandwidthVSs5Int32">kIOReturnNoBandwidth</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit19kIOReturnNoChannelsVSs5Int32">kIOReturnNoChannels</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit21kIOReturnNoCompletionVSs5Int32">kIOReturnNoCompletion</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit17kIOReturnNoDeviceVSs5Int32">kIOReturnNoDevice</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit17kIOReturnNoFramesVSs5Int32">kIOReturnNoFrames</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit20kIOReturnNoInterruptVSs5Int32">kIOReturnNoInterrupt</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit16kIOReturnNoMediaVSs5Int32">kIOReturnNoMedia</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit17kIOReturnNoMemoryVSs5Int32">kIOReturnNoMemory</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit16kIOReturnNoPowerVSs5Int32">kIOReturnNoPower</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit20kIOReturnNoResourcesVSs5Int32">kIOReturnNoResources</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit16kIOReturnNoSpaceVSs5Int32">kIOReturnNoSpace</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit19kIOReturnNotAlignedVSs5Int32">kIOReturnNotAligned</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit20kIOReturnNotAttachedVSs5Int32">kIOReturnNotAttached</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit17kIOReturnNotFoundVSs5Int32">kIOReturnNotFound</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit16kIOReturnNotOpenVSs5Int32">kIOReturnNotOpen</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit21kIOReturnNotPermittedVSs5Int32">kIOReturnNotPermitted</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit22kIOReturnNotPrivilegedVSs5Int32">kIOReturnNotPrivileged</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit20kIOReturnNotReadableVSs5Int32">kIOReturnNotReadable</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit17kIOReturnNotReadyVSs5Int32">kIOReturnNotReady</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit22kIOReturnNotRespondingVSs5Int32">kIOReturnNotResponding</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit20kIOReturnNotWritableVSs5Int32">kIOReturnNotWritable</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit16kIOReturnOfflineVSs5Int32">kIOReturnOffline</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit16kIOReturnOverrunVSs5Int32">kIOReturnOverrun</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit19kIOReturnPortExistsVSs5Int32">kIOReturnPortExists</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit17kIOReturnRLDErrorVSs5Int32">kIOReturnRLDError</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit18kIOReturnStillOpenVSs5Int32">kIOReturnStillOpen</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit16kIOReturnTimeoutVSs5Int32">kIOReturnTimeout</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit17kIOReturnUnderrunVSs5Int32">kIOReturnUnderrun</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit25kIOReturnUnformattedMediaVSs5Int32">kIOReturnUnformattedMedia</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit20kIOReturnUnsupportedVSs5Int32">kIOReturnUnsupported</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit24kIOReturnUnsupportedModeVSs5Int32">kIOReturnUnsupportedMode</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Global Variables.html#/s:v9SystemKit16kIOReturnVMErrorVSs5Int32">kIOReturnVMError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="part-name tasks">
+          <a href="../Structs.html">Structs</a>
+            <ul class="nav-chapters">
+              <li class="nav-chapter">
+                <a href="../Structs/Battery.html">Battery</a>
+              </li>
+              <li class="nav-chapter">
+                <a href="../Structs/System.html">System</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="pixel-line"></div>
+      <div class="rubber-band-gap"></div>
+      <article class="chapter">
+      <a name="/"></a>
+        <h1 class="chapter-name">Battery</h1>
+        <section>
+          <section class="section">
+            <p class="para">Battery statistics for OS X, read-only.<a href="http://www.apple.com/batteries/TODO:">http://www.apple.com/batteries/TODO:</a> None of this will work for iOS as I/O Kit is a private framework there</p>
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                
+                <a name="/PUBLIC%20ENUMS"></a>
+                <a name="//apple_ref/swift/Section/PUBLIC ENUMS" class="dashAnchor"></a>
+                <a href="#/PUBLIC%20ENUMS">
+                  <h3 class="section-name">PUBLIC ENUMS</h3>
+                </a>
+                
+              </div>
+              <ul class="task-group-list">
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:OV9SystemKit7Battery15TemperatureUnit">
+                    <a name="//apple_ref/swift/Enum/TemperatureUnit" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:OV9SystemKit7Battery15TemperatureUnit">TemperatureUnit</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Temperature units</p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TemperatureUnit</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                
+                <a name="/PUBLIC%20INITIALIZERS"></a>
+                <a name="//apple_ref/swift/Section/PUBLIC INITIALIZERS" class="dashAnchor"></a>
+                <a href="#/PUBLIC%20INITIALIZERS">
+                  <h3 class="section-name">PUBLIC INITIALIZERS</h3>
+                </a>
+                
+              </div>
+              <ul class="task-group-list">
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7BatterycFMS0_FT_S0_">
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7BatterycFMS0_FT_S0_">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Undocumented</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                
+                <a name="/PUBLIC%20METHODS"></a>
+                <a name="//apple_ref/swift/Section/PUBLIC METHODS" class="dashAnchor"></a>
+                <a href="#/PUBLIC%20METHODS">
+                  <h3 class="section-name">PUBLIC METHODS</h3>
+                </a>
+                
+              </div>
+              <ul class="task-group-list">
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery4openFRS0_FT_VSs5Int32">
+                    <a name="//apple_ref/swift/Method/open()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery4openFRS0_FT_VSs5Int32">open()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Open a connection to the battery.</p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">mutating</span> <span class="kd">func</span> <span class="nf">open</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">kern_return_t</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="result-description">
+                        <h4>Return Value</h4>
+                        <p class="para">kIOReturnSuccess on success.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery5closeFRS0_FT_VSs5Int32">
+                    <a name="//apple_ref/swift/Method/close()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery5closeFRS0_FT_VSs5Int32">close()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Close the connection to the battery.</p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">mutating</span> <span class="kd">func</span> <span class="nf">close</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">kern_return_t</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="result-description">
+                        <h4>Return Value</h4>
+                        <p class="para">kIOReturnSuccess on success.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                
+                <a name="/PUBLIC%20METHODS%20-%20BATTERY"></a>
+                <a name="//apple_ref/swift/Section/PUBLIC METHODS - BATTERY" class="dashAnchor"></a>
+                <a href="#/PUBLIC%20METHODS%20-%20BATTERY">
+                  <h3 class="section-name">PUBLIC METHODS - BATTERY</h3>
+                </a>
+                
+              </div>
+              <ul class="task-group-list">
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery15currentCapacityFS0_FT_Si">
+                    <a name="//apple_ref/swift/Method/currentCapacity()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery15currentCapacityFS0_FT_Si">currentCapacity()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Get the current capacity of the battery in mAh. This is essientally the current charge of the battery.<a href="https://en.wikipedia.org/wiki/Ampere-hour">https://en.wikipedia.org/wiki/Ampere-hour</a></p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">currentCapacity</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery11maxCapactiyFS0_FT_Si">
+                    <a name="//apple_ref/swift/Method/maxCapactiy()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery11maxCapactiyFS0_FT_Si">maxCapactiy()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Get the current max capacity of the battery in mAh. This degrades over time from the original design capacity.<a href="https://en.wikipedia.org/wiki/Ampere-hour">https://en.wikipedia.org/wiki/Ampere-hour</a></p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">maxCapactiy</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery14designCapacityFS0_FT_Si">
+                    <a name="//apple_ref/swift/Method/designCapacity()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery14designCapacityFS0_FT_Si">designCapacity()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Get the designed capacity of the battery in mAh. This is a static value. The max capacity will be equal to this when new, and as it degrades over time, be less than this.<a href="https://en.wikipedia.org/wiki/Ampere-hour">https://en.wikipedia.org/wiki/Ampere-hour</a></p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">designCapacity</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery10cycleCountFS0_FT_Si">
+                    <a name="//apple_ref/swift/Method/cycleCount()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery10cycleCountFS0_FT_Si">cycleCount()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Get the current cycle count of the battery.<a href="https://en.wikipedia.org/wiki/Charge_cycle">https://en.wikipedia.org/wiki/Charge_cycle</a></p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">cycleCount</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery16designCycleCountFS0_FT_Si">
+                    <a name="//apple_ref/swift/Method/designCycleCount()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery16designCycleCountFS0_FT_Si">designCycleCount()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Get the designed cycle count of the battery.<a href="https://en.wikipedia.org/wiki/Charge_cycle">https://en.wikipedia.org/wiki/Charge_cycle</a></p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">designCycleCount</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery11isACPoweredFS0_FT_Sb">
+                    <a name="//apple_ref/swift/Method/isACPowered()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery11isACPoweredFS0_FT_Sb">isACPowered()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Is the machine powered by AC? Plugged into the charger.</p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isACPowered</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="result-description">
+                        <h4>Return Value</h4>
+                        <p class="para">True if it is, false otherwise.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery10isChargingFS0_FT_Sb">
+                    <a name="//apple_ref/swift/Method/isCharging()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery10isChargingFS0_FT_Sb">isCharging()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Is the battery charging?</p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isCharging</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="result-description">
+                        <h4>Return Value</h4>
+                        <p class="para">True if it is, false otherwise.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery9isChargedFS0_FT_Sb">
+                    <a name="//apple_ref/swift/Method/isCharged()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery9isChargedFS0_FT_Sb">isCharged()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Is the battery fully charged?</p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isCharged</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="result-description">
+                        <h4>Return Value</h4>
+                        <p class="para">True if it is, false otherwise.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery6chargeFS0_FT_Sd">
+                    <a name="//apple_ref/swift/Method/charge()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery6chargeFS0_FT_Sd">charge()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">What is the current charge of the machine? As seen in the battery status  menu bar. This is the currentCapacity / maxCapacity.</p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">charge</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="result-description">
+                        <h4>Return Value</h4>
+                        <p class="para">The current charge as a % out of 100.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery13timeRemainingFS0_FT_Si">
+                    <a name="//apple_ref/swift/Method/timeRemaining()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery13timeRemainingFS0_FT_Si">timeRemaining()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">The time remaining to full charge (if plugged into AC), or the time remaining to full discharge (running on battery). See also timeRemainingFormatted().</p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">timeRemaining</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="result-description">
+                        <h4>Return Value</h4>
+                        <p class="para">Time remaining in minutes.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery22timeRemainingFormattedFS0_FT_SS">
+                    <a name="//apple_ref/swift/Method/timeRemainingFormatted()" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery22timeRemainingFormattedFS0_FT_SS">timeRemainingFormatted()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Same as timeRemaining(), but returns as a human readable time format, as seen in the battery status menu bar.</p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">timeRemainingFormatted</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="result-description">
+                        <h4>Return Value</h4>
+                        <p class="para">Time remaining string in the format <HOURS>:<MINUTES></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item symbol">
+                  <div class="task-group-term">
+                    <code>
+                    <a name="/s:FV9SystemKit7Battery11temperatureFS0_FT4unitOS0_15TemperatureUnit_Sd">
+                    <a name="//apple_ref/swift/Method/temperature(unit:)" class="dashAnchor"></a>
+                    <a class="x-instance-method Swift" href="#/s:FV9SystemKit7Battery11temperatureFS0_FT4unitOS0_15TemperatureUnit_Sd">temperature(unit:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointy-thing-container"></div>
+                    <section class="section instance-method">
+                      <div class="pointy-thing"></div>
+                      <div class="abstract">
+                        <p class="para">Get the current temperature of the battery.<dl><dt><q>MacBook works best at 50° to 95° F (10° to 35° C). Storage temperature: </dt><dd>-4° to 113° F (-20° to 45° C).</q> - via Apple</dd></dl><a href="http://www.apple.com/batteries/maximizing-performance/">http://www.apple.com/batteries/maximizing-performance/</a></p>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+            
+                        <div class="Swift">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">temperature</span><span class="p">(</span><span class="nv">unit</span><span class="p">:</span> <span class="kt">TemperatureUnit</span> <span class="o">=</span> <span class="o">.</span><span class="kt">Celsius</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="result-description">
+                        <h4>Return Value</h4>
+                        <p class="para">Battery temperature, by default in Celsius.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p class="copyright">&copy; 2015 <a class="link" href="https://github.com/beltex/" target="_blank" rel="external">beltex</a>. All rights reserved. (Last updated: 2015-01-12)</p>
+          <p class="copyright">Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.0.20</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
