@@ -1,5 +1,7 @@
 System.swift
 	public struct System
 	public init()
+Process.swift
+	public init()
 Battery.swift
 	public init()

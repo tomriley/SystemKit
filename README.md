@@ -7,4 +7,6 @@ README.md
 
 ### [jazzy](https://github.com/realm/jazzy)
 
-jazzy is used to generate the API document for SMCKit. See `jazzy.sh`.
+jazzy is used to generate the
+[API document](http://beltex.github.io/SystemKit/docs/index.html) for SystemKit.
+See `jazzy.sh`
