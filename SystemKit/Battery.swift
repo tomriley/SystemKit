@@ -115,8 +115,8 @@ public struct Battery {
         
         
         // TODO: Could there be more than one service? serveral batteries?
-        service = IOServiceGetMatchingService(kIOMasterPortDefault,
-                  IOServiceNameMatching(Battery.IOSERVICE_BATTERY))
+        service = 0//IOServiceGetMatchingService(kIOMasterPortDefault,
+                  //IOServiceNameMatching(Battery.IOSERVICE_BATTERY))
         
         if (service == 0) {
             #if DEBUG
